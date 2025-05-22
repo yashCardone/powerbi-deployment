@@ -1,0 +1,30 @@
+{
+  "displayName": "SCF Last 13 Months",
+  "name": "d98fbe01bd02598bd810",
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "56922928a027dd9c090b",
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "options": {
+    "targetVisualNames": [
+      "f4d501d7634d9e913620"
+    ]
+  }
+}

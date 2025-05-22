@@ -1,0 +1,842 @@
+{
+  "objects": {
+    "grid": [
+      {
+        "properties": {
+          "textSize": {
+            "expr": {
+              "Literal": {
+                "Value": "12D"
+              }
+            }
+          },
+          "outlineColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "gridHorizontal": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "outlineWeight": {
+            "expr": {
+              "Literal": {
+                "Value": "3D"
+              }
+            }
+          },
+          "outlineStyle": {
+            "expr": {
+              "Literal": {
+                "Value": "1D"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "columnHeaders": [
+      {
+        "properties": {
+          "alignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Center'"
+              }
+            }
+          },
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "14D"
+              }
+            }
+          },
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 1,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "backColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'wf_standard-font, helvetica, arial, sans-serif'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "values": [
+      {
+        "properties": {
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "14D"
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'wf_standard-font, helvetica, arial, sans-serif'"
+              }
+            }
+          }
+        }
+      },
+      {
+        "properties": {},
+        "selector": {
+          "data": [
+            {
+              "dataViewWildcard": {
+                "matchingOption": 1
+              }
+            }
+          ],
+          "metadata": "income_statement.IS_Actual_opt1_test_MTD_Removed"
+        }
+      }
+    ],
+    "total": [
+      {
+        "properties": {}
+      }
+    ],
+    "columnWidth": [
+      {
+        "properties": {
+          "value": {
+            "expr": {
+              "Literal": {
+                "Value": "89.22680412371133D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "income_statement.IS_Actual_opt1_test_MTD_Removed"
+        }
+      },
+      {
+        "properties": {
+          "value": {
+            "expr": {
+              "Literal": {
+                "Value": "248.8322595666894D"
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Financial Metrics.Calculation group column"
+        }
+      }
+    ],
+    "subTotals": [
+      {
+        "properties": {
+          "rowSubtotals": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "columnSubtotals": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "blankRows": [
+      {
+        "properties": {
+          "showBlankRows": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "rowHeaders": [
+      {
+        "properties": {
+          "alignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Left'"
+              }
+            }
+          },
+          "fontSize": {
+            "expr": {
+              "Literal": {
+                "Value": "14D"
+              }
+            }
+          },
+          "backColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 0,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "fontColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "ThemeDataColor": {
+                    "ColorId": 1,
+                    "Percent": 0
+                  }
+                }
+              }
+            }
+          },
+          "bold": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          },
+          "fontFamily": {
+            "expr": {
+              "Literal": {
+                "Value": "'wf_standard-font, helvetica, arial, sans-serif'"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Rows": [
+      1,
+      0,
+      3
+    ],
+    "Values": [
+      6,
+      7,
+      8,
+      2,
+      4,
+      5,
+      2
+    ]
+  },
+  "projectionActiveItems": {
+    "Rows": [
+      {
+        "queryRef": "Financial Metrics.Calculation group column",
+        "suppressConcat": false
+      }
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "gl_category_3",
+        "Name": "transaction_master.gl_category_3",
+        "Type": 2048
+      },
+      {
+        "Restatement": " ",
+        "Name": "Financial Metrics.Calculation group column",
+        "Type": 2048
+      },
+      {
+        "Restatement": "Var",
+        "Name": "transaction_master.Var_to_Plan_%",
+        "Type": 1,
+        "Format": "#,##0%;(#,##0%);0%"
+      },
+      {
+        "Restatement": "gl_account_name",
+        "Name": "transaction_master.gl_account_name",
+        "Type": 2048
+      },
+      {
+        "Restatement": "% of Actual",
+        "Name": "transaction_master.% of Actual",
+        "Type": 1,
+        "Format": "#,##0%;(#,##0%);0%"
+      },
+      {
+        "Restatement": "% of Plan",
+        "Name": "transaction_master.% of Plan",
+        "Type": 1,
+        "Format": "0%;-0%;0%"
+      },
+      {
+        "Restatement": "Actual",
+        "Name": "transaction_master.Actual_rev",
+        "Type": 1,
+        "Format": "#,##0;(#,##0);0"
+      },
+      {
+        "Restatement": "Plan",
+        "Name": "transaction_master.plan_rev",
+        "Type": 1,
+        "Format": "#,##0;(#,##0);0"
+      },
+      {
+        "Restatement": "Var to Plan",
+        "Name": "transaction_master.Var_to_Plan",
+        "Type": 1,
+        "Format": "#,##0;(#,##0);0"
+      }
+    ],
+    "Filters": [
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "transaction_master"
+              }
+            },
+            "Property": "gl_category_3"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Financial Metrics"
+              }
+            },
+            "Property": "Calculation group column"
+          }
+        }
+      },
+      {
+        "type": 2,
+        "expression": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "transaction_master"
+              }
+            },
+            "Property": "Var_to_Plan_%"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "transaction_master"
+              }
+            },
+            "Property": "gl_account_name"
+          }
+        }
+      },
+      {
+        "type": 2,
+        "expression": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "transaction_master"
+              }
+            },
+            "Property": "% of Actual"
+          }
+        }
+      },
+      {
+        "type": 2,
+        "expression": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "transaction_master"
+              }
+            },
+            "Property": "% of Plan"
+          }
+        }
+      },
+      {
+        "type": 2,
+        "expression": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "transaction_master"
+              }
+            },
+            "Property": "Actual_rev"
+          }
+        }
+      },
+      {
+        "type": 2,
+        "expression": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "transaction_master"
+              }
+            },
+            "Property": "plan_rev"
+          }
+        }
+      },
+      {
+        "type": 2,
+        "expression": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "transaction_master"
+              }
+            },
+            "Property": "Var_to_Plan"
+          }
+        }
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Rows",
+          "Projection": 1,
+          "isActive": true
+        },
+        {
+          "Name": "Rows",
+          "Projection": 0,
+          "isActive": false
+        },
+        {
+          "Name": "Rows",
+          "Projection": 3,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 6,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 7,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 8,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 2,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 4,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 5,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 2,
+          "isActive": false
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "gl_category_3",
+      "queryName": "transaction_master.gl_category_3",
+      "roles": {
+        "Rows": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "transaction_master"
+            }
+          },
+          "Property": "gl_category_3"
+        }
+      }
+    },
+    {
+      "displayName": " ",
+      "queryName": "Financial Metrics.Calculation group column",
+      "roles": {
+        "Rows": true
+      },
+      "sort": 1,
+      "sortOrder": 0,
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "Financial Metrics"
+            }
+          },
+          "Property": "Calculation group column"
+        }
+      }
+    },
+    {
+      "displayName": "Var",
+      "format": "#,##0%;(#,##0%);0%",
+      "queryName": "transaction_master.Var_to_Plan_%",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "transaction_master"
+            }
+          },
+          "Property": "Var_to_Plan_%"
+        }
+      }
+    },
+    {
+      "displayName": "gl_account_name",
+      "queryName": "transaction_master.gl_account_name",
+      "roles": {
+        "Rows": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "transaction_master"
+            }
+          },
+          "Property": "gl_account_name"
+        }
+      }
+    },
+    {
+      "displayName": "% of Actual",
+      "format": "#,##0%;(#,##0%);0%",
+      "queryName": "transaction_master.% of Actual",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "transaction_master"
+            }
+          },
+          "Property": "% of Actual"
+        }
+      }
+    },
+    {
+      "displayName": "% of Plan",
+      "format": "0%;-0%;0%",
+      "queryName": "transaction_master.% of Plan",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "transaction_master"
+            }
+          },
+          "Property": "% of Plan"
+        }
+      }
+    },
+    {
+      "displayName": "Actual",
+      "format": "#,##0;(#,##0);0",
+      "queryName": "transaction_master.Actual_rev",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "transaction_master"
+            }
+          },
+          "Property": "Actual_rev"
+        }
+      }
+    },
+    {
+      "displayName": "Plan",
+      "format": "#,##0;(#,##0);0",
+      "queryName": "transaction_master.plan_rev",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "transaction_master"
+            }
+          },
+          "Property": "plan_rev"
+        }
+      }
+    },
+    {
+      "displayName": "Var to Plan",
+      "format": "#,##0;(#,##0);0",
+      "queryName": "transaction_master.Var_to_Plan",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "transaction_master"
+            }
+          },
+          "Property": "Var_to_Plan"
+        }
+      }
+    }
+  ],
+  "expansionStates": [
+    {
+      "roles": [
+        "Rows"
+      ],
+      "levels": [
+        {
+          "queryRefs": [
+            "Financial Metrics.Calculation group column"
+          ],
+          "isCollapsed": true,
+          "identityKeys": [
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Financial Metrics"
+                  }
+                },
+                "Property": "Calculation group column"
+              }
+            }
+          ],
+          "isPinned": true
+        },
+        {
+          "queryRefs": [
+            "transaction_master.gl_category_3"
+          ],
+          "isCollapsed": true,
+          "identityKeys": [
+            {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "transaction_master"
+                  }
+                },
+                "Property": "gl_category_3"
+              }
+            }
+          ],
+          "isPinned": true
+        },
+        {
+          "queryRefs": [
+            "transaction_master.gl_account_name"
+          ],
+          "isCollapsed": true,
+          "isPinned": true
+        }
+      ],
+      "root": {
+        "identityValues": null,
+        "children": [
+          {
+            "identityValues": [
+              {
+                "Literal": {
+                  "Value": "'Revenue'"
+                }
+              }
+            ],
+            "children": [
+              {
+                "identityValues": [
+                  {
+                    "Literal": {
+                      "Value": "'Revenue'"
+                    }
+                  }
+                ],
+                "isToggled": true
+              }
+            ]
+          },
+          {
+            "identityValues": [
+              {
+                "Literal": {
+                  "Value": "'COGS'"
+                }
+              }
+            ],
+            "children": [
+              {
+                "identityValues": [
+                  {
+                    "Literal": {
+                      "Value": "'COGS'"
+                    }
+                  }
+                ],
+                "isToggled": true
+              }
+            ]
+          },
+          {
+            "identityValues": [
+              {
+                "Literal": {
+                  "Value": "'SG&A'"
+                }
+              }
+            ],
+            "children": [
+              {
+                "identityValues": [
+                  {
+                    "Literal": {
+                      "Value": "'General & Adminstrative'"
+                    }
+                  }
+                ],
+                "isToggled": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

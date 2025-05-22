@@ -1,0 +1,106 @@
+{
+  "filters": {
+    "byExpr": [
+      {
+        "type": "Categorical",
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "cash_flow_balances"
+              }
+            },
+            "Property": "account_subcategory"
+          }
+        },
+        "howCreated": 0
+      },
+      {
+        "type": "Categorical",
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "cash_flow_balances"
+              }
+            },
+            "Property": "account_name"
+          }
+        },
+        "howCreated": 0
+      },
+      {
+        "type": "Categorical",
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "cash_flow_balances"
+              }
+            },
+            "Property": "x_axis_name"
+          }
+        },
+        "howCreated": 0
+      },
+      {
+        "type": "Advanced",
+        "expression": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "transaction_master"
+              }
+            },
+            "Property": "Actual_CF"
+          }
+        },
+        "howCreated": 0
+      },
+      {
+        "type": "Categorical",
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "CF_List"
+              }
+            },
+            "Property": "Calculation group column"
+          }
+        },
+        "howCreated": 0
+      }
+    ]
+  },
+  "singleVisual": {
+    "visualType": "pivotTable",
+    "objects": {},
+    "activeProjections": {
+      "Rows": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "CF_List"
+              }
+            },
+            "Property": "Calculation group column"
+          }
+        }
+      ],
+      "Columns": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "cash_flow_balances"
+              }
+            },
+            "Property": "x_axis_name"
+          }
+        }
+      ]
+    }
+  }
+}

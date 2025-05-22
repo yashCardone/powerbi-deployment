@@ -1,0 +1,13 @@
+{
+  "Version": 4,
+  "ReportSettings": {
+    "IsQnaEnabledForLiveConnect": true,
+    "QnaLsdlSharingPermission": 1,
+    "IsQnaEnabledForThisFile": true
+  },
+  "QueriesSettings": {
+    "TypeDetectionEnabled": true,
+    "RelationshipImportEnabled": true,
+    "Version": "2.140.405.0"
+  }
+}

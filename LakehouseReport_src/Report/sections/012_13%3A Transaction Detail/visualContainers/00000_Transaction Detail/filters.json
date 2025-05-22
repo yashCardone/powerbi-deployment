@@ -1,0 +1,19 @@
+[
+  {
+    "name": "e9d33f98ba347dec11aa",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "transaction_master"
+          }
+        },
+        "Property": "gl_account_item_id"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 1,
+    "isHiddenInViewMode": false,
+    "ordinal": 1
+  }
+]

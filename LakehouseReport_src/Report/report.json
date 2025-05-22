@@ -1,0 +1,63 @@
+{
+  "id": 17770299,
+  "layoutOptimization": 0,
+  "pods": [
+    {
+      "boundSection": "4bcfd8c58414029d5a95",
+      "config": "{}",
+      "id": 64725246,
+      "name": "0b43b924cd3c44e94a7b",
+      "objectId": "dfc889fc-69df-44ff-bc32-fa8f58ee1563",
+      "parameters": "[{\"name\":\"2d3ec1e29db5250e200d\",\"boundFilter\":\"82daccdbb00e5ca17dce\",\"fieldExpr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"transaction_master\"}},\"Property\":\"transaction_type\"}}}]"
+    }
+  ],
+  "publicCustomVisuals": [
+    "ChicletSlicer1448559807354",
+    "easytableFAE42049DA2544A0BCE8ECFEB0EC735C"
+  ],
+  "reportId": 13870294,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "id": 24666581,
+        "items": [
+          {
+            "id": 61269567,
+            "name": "10x05913551910562054.png",
+            "path": "10x05913551910562054.png",
+            "resourcePackageId": 24666581,
+            "type": 100
+          },
+          {
+            "id": 61269568,
+            "name": "CV_logo12953630723830822.png",
+            "path": "CV_logo12953630723830822.png",
+            "resourcePackageId": 24666581,
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "reportId": 13870294,
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "id": 24690027,
+        "items": [
+          {
+            "id": 61469105,
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "resourcePackageId": 24690027,
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "reportId": 13870294,
+        "type": 2
+      }
+    }
+  ]
+}

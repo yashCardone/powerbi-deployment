@@ -1,0 +1,38 @@
+{
+  "name": "4e43457b6d0b17590ee0",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 185.71166207529842,
+        "y": 0,
+        "z": 8000,
+        "width": 39.963269054178141,
+        "height": 39.963269054178141,
+        "tabOrder": 8000
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "image",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "imageUrl": {
+              "expr": {
+                "ResourcePackageItem": {
+                  "PackageName": "RegisteredResources",
+                  "PackageType": 1,
+                  "ItemName": "10x05913551910562054.png"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "howCreated": "InsertVisualButton"
+}

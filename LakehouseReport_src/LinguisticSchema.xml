@@ -1,0 +1,9 @@
+<LinguisticSchema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Language="en-US" DynamicImprovement="Default" xmlns="http://schemas.microsoft.com/sqlserver/2016/01/linguisticschema">
+  <Entities>
+    <Entity Name="Transaction_Detail" ConceptualEntity="0b43b924cd3c44e94a7b" Source="Generated">
+      <Words>
+        <Word>13: Transaction Detail</Word>
+      </Words>
+    </Entity>
+  </Entities>
+</LinguisticSchema>

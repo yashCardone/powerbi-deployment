@@ -1,0 +1,35 @@
+{
+  "name": "508488dc98082a107408",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "width": 1280.3041825095056,
+        "height": 719.99999999999989,
+        "tabOrder": 0
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "qnaVisual",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "hiddenProperties": [
+        {
+          "properties": {
+            "savedUtterance": {
+              "expr": {
+                "Literal": {
+                  "Value": "'what was the ending cash flow amount balance for 4/1/2025 (visual date)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

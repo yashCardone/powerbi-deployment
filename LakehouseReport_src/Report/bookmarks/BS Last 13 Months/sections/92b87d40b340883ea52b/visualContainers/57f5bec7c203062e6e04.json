@@ -1,0 +1,202 @@
+{
+  "filters": {
+    "byExpr": [
+      {
+        "type": "Categorical",
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "balance_sheet_eom_balances"
+              }
+            },
+            "Property": "account_category"
+          }
+        },
+        "howCreated": 0
+      },
+      {
+        "type": "Categorical",
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "balance_sheet_eom_balances"
+              }
+            },
+            "Property": "account_subcategory"
+          }
+        },
+        "howCreated": 0
+      },
+      {
+        "type": "Advanced",
+        "expression": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "transaction_master"
+              }
+            },
+            "Property": "BS_Actual_Total_Balance"
+          }
+        },
+        "howCreated": 0
+      },
+      {
+        "type": "Categorical",
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "balance_sheet_eom_balances"
+              }
+            },
+            "Property": "x_axis_name"
+          }
+        },
+        "howCreated": 0
+      },
+      {
+        "type": "Categorical",
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "balance_sheet_eom_balances"
+              }
+            },
+            "Property": "account_name"
+          }
+        },
+        "howCreated": 0
+      }
+    ]
+  },
+  "singleVisual": {
+    "visualType": "pivotTable",
+    "objects": {},
+    "orderBy": [
+      {
+        "Direction": 1,
+        "Expression": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "transaction_master"
+              }
+            },
+            "Property": "BS_Actual_Total_Balance"
+          }
+        }
+      }
+    ],
+    "activeProjections": {
+      "Rows": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "balance_sheet_eom_balances"
+              }
+            },
+            "Property": "account_category"
+          }
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "balance_sheet_eom_balances"
+              }
+            },
+            "Property": "account_subcategory"
+          }
+        }
+      ],
+      "Columns": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "balance_sheet_eom_balances"
+              }
+            },
+            "Property": "x_axis_name"
+          }
+        }
+      ]
+    },
+    "expansionStates": [
+      {
+        "roles": [
+          "Rows"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "balance_sheet_eom_balances.account_category"
+            ],
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "balance_sheet_eom_balances"
+                    }
+                  },
+                  "Property": "account_category"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "balance_sheet_eom_balances.account_subcategory"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "balance_sheet_eom_balances"
+                    }
+                  },
+                  "Property": "account_subcategory"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "balance_sheet_eom_balances.account_name"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {
+          "identityValues": null,
+          "children": [
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'Equity'"
+                  }
+                }
+              ],
+              "isToggled": true
+            }
+          ]
+        }
+      }
+    ],
+    "display": {
+      "mode": "hidden"
+    }
+  }
+}

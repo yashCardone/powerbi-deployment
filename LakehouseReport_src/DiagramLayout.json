@@ -1,0 +1,190 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 272.57099602792789
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 334.19980342462151,
+            "y": 771.16875352044929
+          },
+          "nodeIndex": "visual_date",
+          "nodeLineageTag": "f22b8cb7-37bc-4790-99b3-d5073e532cf6",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 620.13038349796057,
+            "y": 777.23147597540981
+          },
+          "nodeIndex": "balance_sheet_eom_balances",
+          "nodeLineageTag": "8017eba8-a54e-4588-b618-f1469a4f1523",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": 669.77642092379438
+          },
+          "nodeIndex": "transaction_master",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 854.13038349796057,
+            "y": 653.84396481499721
+          },
+          "nodeIndex": "Financial Metrics",
+          "nodeLineageTag": "f651dc61-410c-41e8-b5df-a7917bf06203",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 1088.1303834979606,
+            "y": 653.84396481499721
+          },
+          "nodeIndex": "Dashboard_Visuals (2)",
+          "nodeLineageTag": "9c4dbdc2-bb45-4999-bd57-d5c71bed072b",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1372.1303834979606,
+            "y": 653.84396481499721
+          },
+          "nodeIndex": "Time Intelligence",
+          "nodeLineageTag": "51d65c13-0319-4897-bab9-d102ca0ad058",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2112.6402282177582,
+            "y": 766.30041846958181
+          },
+          "nodeIndex": "cash_flow_balances",
+          "nodeLineageTag": "145b7095-7f6a-4d8d-b0e6-49d8924995b5",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2346.6402282177582,
+            "y": 494.15020923479096
+          },
+          "nodeIndex": "CF_List",
+          "nodeLineageTag": "5b213e83-203e-4210-a86b-9ad9e910a273",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2630.6402282177582,
+            "y": 494.15020923479096
+          },
+          "nodeIndex": "Conditional Format",
+          "nodeLineageTag": "6647408b-6919-4752-8bdb-e40c629e1e81",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1828.3110531993068,
+            "y": 601.2341095088816
+          },
+          "nodeIndex": "dashboard_monthly_net_income",
+          "nodeLineageTag": "1186fa5c-e04b-4f34-a83d-3bce45c56c26",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1860.3124054409909,
+            "y": -50
+          },
+          "nodeIndex": "dashboard_monthly_revenue",
+          "nodeLineageTag": "80d286c0-2794-40ad-b33a-e39d17a8adf5",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1656.1303834979606,
+            "y": 300.18342587761276
+          },
+          "nodeIndex": "ref_client",
+          "nodeLineageTag": "b16ed5e2-c65f-4069-8563-ad3601316c70",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2864.6402282177582,
+            "y": 506.15020923479096
+          },
+          "nodeIndex": "cv_processing_refresh",
+          "nodeLineageTag": "9b71b56e-7cf2-4168-a4cb-2dc5b21b94b8",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 81.446670128194285,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
