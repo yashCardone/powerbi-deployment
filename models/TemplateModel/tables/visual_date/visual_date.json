@@ -1,0 +1,15 @@
+{
+  "name": "visual_date",
+  "lineageTag": "198c6ef3-53a9-46af-b3c2-f0355300054b",
+  "sourceLineageTag": "[dbo].[visual_date]",
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": "[]"
+    }
+  ]
+}

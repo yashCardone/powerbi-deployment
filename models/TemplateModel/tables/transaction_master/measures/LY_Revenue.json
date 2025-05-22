@@ -1,0 +1,20 @@
+{
+  "name": "LY_Revenue",
+  "expression": "CALCULATE([LY_rev], FILTER('transaction_master','transaction_master'[gl_category_1] = \"Revenue\"))",
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "5f676387-6c2b-4806-8bb5-3aa5e71fb68a",
+  "changedProperties": [
+    {
+      "property": "Name"
+    },
+    {
+      "property": "DisplayFolder"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

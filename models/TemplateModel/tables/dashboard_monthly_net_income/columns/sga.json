@@ -1,0 +1,19 @@
+{
+  "name": "sga",
+  "dataType": "double",
+  "sourceColumn": "sga",
+  "sourceProviderType": "float",
+  "lineageTag": "997380a2-51a8-410c-ad6c-b3c43590eb95",
+  "sourceLineageTag": "sga",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

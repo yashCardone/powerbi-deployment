@@ -1,0 +1,19 @@
+{
+  "name": "gross_profit",
+  "dataType": "double",
+  "sourceColumn": "gross_profit",
+  "sourceProviderType": "float",
+  "lineageTag": "22d4ff83-9194-4a95-a4fc-fd9c89eb4af8",
+  "sourceLineageTag": "gross_profit",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "cogs",
+  "dataType": "double",
+  "sourceColumn": "cogs",
+  "sourceProviderType": "float",
+  "lineageTag": "2c982b59-8c91-466d-94e0-6000043a2ac4",
+  "sourceLineageTag": "cogs",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

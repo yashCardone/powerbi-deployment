@@ -1,0 +1,15 @@
+{
+  "name": "ParentClientID",
+  "dataType": "string",
+  "sourceColumn": "ParentClientID",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "c176b556-5a2d-403b-bee8-263eb8ee9fd8",
+  "sourceLineageTag": "ParentClientID",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

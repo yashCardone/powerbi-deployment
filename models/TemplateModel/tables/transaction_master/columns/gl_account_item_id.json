@@ -1,0 +1,15 @@
+{
+  "name": "gl_account_item_id",
+  "dataType": "string",
+  "sourceColumn": "gl_account_item_id",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "5054d074-2dd9-4073-95b9-409e6cccfc76",
+  "sourceLineageTag": "gl_account_item_id",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

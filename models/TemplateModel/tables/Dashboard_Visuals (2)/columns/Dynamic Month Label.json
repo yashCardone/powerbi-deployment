@@ -1,0 +1,17 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Dynamic Month Label",
+  "dataType": "int64",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Dynamic Month Label]",
+  "formatString": "0",
+  "lineageTag": "37180429-5bd3-4468-a6cc-a991f890d85a",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

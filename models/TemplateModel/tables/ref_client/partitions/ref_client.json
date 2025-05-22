@@ -1,0 +1,10 @@
+{
+  "name": "ref_client",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "ref_client",
+    "expressionSource": "DatabaseQuery",
+    "schemaName": "dbo"
+  }
+}

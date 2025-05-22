@@ -1,0 +1,18 @@
+{
+  "name": "db_Net_income_perc",
+  "expression": "CALCULATE(AVERAGE('dashboard_monthly_net_income'[ni_perc]),FILTER('dashboard_monthly_net_income',dashboard_monthly_net_income[selection_date] <> BLANK()))",
+  "formatString": "0.00%;-0.00%;0.00%",
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "d4337851-0c3e-4875-8be0-2486cd58c2aa",
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    },
+    {
+      "property": "Name"
+    },
+    {
+      "property": "FormatString"
+    }
+  ]
+}

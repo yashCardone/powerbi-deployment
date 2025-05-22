@@ -1,0 +1,7 @@
+{
+  "name": "Conditional Format",
+  "mode": "import",
+  "source": {
+    "type": "calculationGroup"
+  }
+}

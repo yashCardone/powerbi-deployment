@@ -1,0 +1,10 @@
+{
+  "name": "dashboard_monthly_net_income",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "dashboard_monthly_net_income",
+    "expressionSource": "DatabaseQuery",
+    "schemaName": "dbo"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "unit_cost",
+  "dataType": "double",
+  "sourceColumn": "unit_cost",
+  "sourceProviderType": "real",
+  "lineageTag": "fba195b6-80e6-4199-8db9-70aa7c074568",
+  "sourceLineageTag": "unit_cost",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

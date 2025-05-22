@@ -1,0 +1,35 @@
+{
+  "name": "Cash_Service_%_By_Offset",
+  "expression": [
+    "",
+    "VAR OffsetValue = SELECTEDVALUE('Dashboard_Visuals (2)'[Offset])",
+    "VAR SelectedYear = SELECTEDVALUE('visual_date'[Year])",
+    "VAR SelectedMonth = SELECTEDVALUE('visual_date'[Month])",
+    "-- Compute the target month & year based on the selected offset",
+    "VAR TargetMonth = SelectedMonth - OffsetValue",
+    "VAR AdjustedYear = IF(TargetMonth < 1, SelectedYear - 1, SelectedYear)",
+    "VAR AdjustedMonth = IF(TargetMonth < 1, TargetMonth + 12, TargetMonth)",
+    "-- Create an index between 1 and 6 using the adjusted month",
+    "VAR PercentIndex = MOD(AdjustedMonth - 1, 6) + 1",
+    "RETURN",
+    "    SWITCH(",
+    "        PercentIndex,",
+    "        1, 0.08,",
+    "        2, 0.10,",
+    "        3, 0.12,",
+    "        4, 0.14,",
+    "        5, 0.16,",
+    "        6, 0.18,",
+    "        BLANK()",
+    "    )",
+    ""
+  ],
+  "formatString": "0%;-0%;0%",
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "96557b4e-fb18-4081-9748-072cea98268d",
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Quarter",
+  "dataType": "int64",
+  "sourceColumn": "Quarter",
+  "formatString": "0",
+  "sourceProviderType": "int",
+  "lineageTag": "534d3db3-4f46-407e-ab11-fda8e7b39d72",
+  "sourceLineageTag": "Quarter",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

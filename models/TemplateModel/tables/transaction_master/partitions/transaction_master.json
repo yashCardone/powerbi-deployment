@@ -1,0 +1,10 @@
+{
+  "name": "transaction_master",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "transaction_master",
+    "expressionSource": "DatabaseQuery",
+    "schemaName": "dbo"
+  }
+}

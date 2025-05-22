@@ -1,0 +1,16 @@
+{
+  "name": "DataRefresh",
+  "dataType": "dateTime",
+  "sourceColumn": "DataRefresh",
+  "formatString": "General Date",
+  "sourceProviderType": "datetime2",
+  "lineageTag": "f1a698d2-cfee-437c-ba4e-fa2f3d3c9e7e",
+  "sourceLineageTag": "DataRefresh",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

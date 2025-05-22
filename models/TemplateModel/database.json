@@ -1,0 +1,42 @@
+{
+  "name": "SBU Financial Package Reporting Semantic Model",
+  "id": "7ce61aa4-803a-43fc-a110-facb67e842bf",
+  "compatibilityLevel": 1604,
+  "model": {
+    "culture": "en-US",
+    "collation": "Latin1_General_100_BIN2_UTF8",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "discourageImplicitMeasures": true,
+    "sourceQueryCulture": "en-US",
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.143.7657.7 (Main)+be8585b37c10e69f44bb60748e20297aeca9ce9f"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"DatabaseQuery\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"WebModelingEdit\",\"CalcGroup\",\"RemoteModeling\"]"
+      },
+      {
+        "name": "TabularEditor_SerializeOptions",
+        "value": "{\"IgnoreInferredObjects\":true,\"IgnoreInferredProperties\":true,\"IgnoreTimestamps\":true,\"IgnoreIncrementalRefreshPartitions\":true,\"SplitMultilineStrings\":true,\"PrefixFilenames\":false,\"LocalTranslations\":true,\"LocalPerspectives\":true,\"LocalRelationships\":true,\"Levels\":[\"Data Sources\",\"Perspectives\",\"Relationships\",\"Roles\",\"Shared Expressions\",\"Tables\",\"Tables/CalculationItems\",\"Tables/Columns\",\"Tables/Hierarchies\",\"Tables/Measures\",\"Tables/Partitions\",\"Translations\"]}"
+      },
+      {
+        "name": "TabularEditor_Perspectives",
+        "value": "[]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "actual_revenue",
+  "dataType": "double",
+  "sourceColumn": "actual_revenue",
+  "sourceProviderType": "float",
+  "lineageTag": "c4138c3a-7e2d-4a40-a758-66036c6e8b1f",
+  "sourceLineageTag": "actual_revenue",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Cash_and_Cash_Equivalents_By_Offset",
+  "expression": [
+    "",
+    "VAR OffsetValue = SELECTEDVALUE('Dashboard_Visuals (2)'[Offset])",
+    "VAR SelectedYear = SELECTEDVALUE('visual_date'[Year])",
+    "VAR SelectedMonth = SELECTEDVALUE('visual_date'[Month])",
+    "VAR TargetMonth = SelectedMonth - OffsetValue",
+    "VAR AdjustedYear = IF(TargetMonth < 1, SelectedYear - 1, SelectedYear)",
+    "VAR AdjustedMonth = IF(TargetMonth < 1, TargetMonth + 12, TargetMonth)",
+    "RETURN",
+    "    CALCULATE(",
+    "        SUM(balance_sheet_eom_balances[balance]),",
+    "        FILTER(",
+    "            ALL('visual_date'),",
+    "            'visual_date'[Year] = AdjustedYear &&",
+    "            'visual_date'[Month] = AdjustedMonth",
+    "        ),",
+    "        balance_sheet_eom_balances[account_name] = \"Cash and Cash Equivalents\"",
+    "    )"
+  ],
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "5b62f779-bd61-411d-8bd9-25515746e11c",
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

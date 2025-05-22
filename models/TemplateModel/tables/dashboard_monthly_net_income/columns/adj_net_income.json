@@ -1,0 +1,19 @@
+{
+  "name": "adj_net_income",
+  "dataType": "double",
+  "sourceColumn": "adj_net_income",
+  "sourceProviderType": "float",
+  "lineageTag": "6fe823e0-efa5-4159-a3d1-407edd97e451",
+  "sourceLineageTag": "adj_net_income",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

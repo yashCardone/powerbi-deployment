@@ -1,0 +1,16 @@
+{
+  "name": "IsActive",
+  "dataType": "int64",
+  "sourceColumn": "IsActive",
+  "formatString": "0",
+  "sourceProviderType": "int",
+  "lineageTag": "b332b20f-0573-49ce-8edd-71cc32016464",
+  "sourceLineageTag": "IsActive",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

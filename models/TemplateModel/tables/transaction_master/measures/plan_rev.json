@@ -1,0 +1,20 @@
+{
+  "name": "plan_rev",
+  "expression": "CALCULATE( SUM('transaction_master'[total_amount]),FILTER('transaction_master', 'transaction_master'[scenario] = \"Plan\"))",
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "70d9b560-7606-4f9c-957b-8997fdf7af35",
+  "formatStringDefinition": {
+    "expression": "\"#,##0;(#,##0);0\""
+  },
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    },
+    {
+      "property": "FormatString"
+    },
+    {
+      "property": "FormatStringDefinition"
+    }
+  ]
+}

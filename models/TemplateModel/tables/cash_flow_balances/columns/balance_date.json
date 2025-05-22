@@ -1,0 +1,16 @@
+{
+  "name": "balance_date",
+  "dataType": "dateTime",
+  "sourceColumn": "balance_date",
+  "formatString": "General Date",
+  "sourceProviderType": "date",
+  "lineageTag": "09038bbc-d07e-4f67-9b6d-36176e4537c8",
+  "sourceLineageTag": "balance_date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

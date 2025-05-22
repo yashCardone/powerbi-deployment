@@ -1,0 +1,16 @@
+{
+  "name": "dashboard_number",
+  "dataType": "int64",
+  "sourceColumn": "dashboard_number",
+  "formatString": "0",
+  "sourceProviderType": "int",
+  "lineageTag": "24a821b0-4d81-4d73-b08f-06ba2d37c56c",
+  "sourceLineageTag": "dashboard_number",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Selected_Month_Year",
+  "expression": [
+    "",
+    "VAR SelectedMonth = SELECTEDVALUE(visual_date[Month])",
+    "VAR SelectedYear  = SELECTEDVALUE(visual_date[Year])",
+    "RETURN",
+    "    IF(",
+    "        NOT ISBLANK(SelectedMonth) && NOT ISBLANK(SelectedYear),",
+    "        SWITCH(",
+    "            SelectedMonth,",
+    "            1,  \"Jan\",",
+    "            2,  \"Feb\",",
+    "            3,  \"Mar\",",
+    "            4,  \"Apr\",",
+    "            5,  \"May\",",
+    "            6,  \"Jun\",",
+    "            7,  \"Jul\",",
+    "            8,  \"Aug\",",
+    "            9,  \"Sep\",",
+    "            10, \"Oct\",",
+    "            11, \"Nov\",",
+    "            12, \"Dec\",",
+    "            BLANK() -- fallback if somehow outside 1–12",
+    "        )",
+    "        & \" \"",
+    "        & SelectedYear, ",
+    "        BLANK() -- fallback if multiple months/years are selected or none",
+    "    )",
+    ""
+  ],
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "d71ee065-6181-4dfa-bcf5-43edca7839d4",
+  "changedProperties": [
+    {
+      "property": "Name"
+    },
+    {
+      "property": "DisplayFolder"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

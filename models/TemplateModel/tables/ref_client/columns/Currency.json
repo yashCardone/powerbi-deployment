@@ -1,0 +1,16 @@
+{
+  "name": "Currency",
+  "dataType": "int64",
+  "sourceColumn": "Currency",
+  "formatString": "0",
+  "sourceProviderType": "int",
+  "lineageTag": "1f23ed03-46a2-41b7-916c-ccf5132f7fed",
+  "sourceLineageTag": "Currency",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

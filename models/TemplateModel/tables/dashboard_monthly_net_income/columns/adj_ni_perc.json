@@ -1,0 +1,19 @@
+{
+  "name": "adj_ni_perc",
+  "dataType": "double",
+  "sourceColumn": "adj_ni_perc",
+  "sourceProviderType": "float",
+  "lineageTag": "abec6f04-e1d2-494a-9a8f-b4d32bb5adc7",
+  "sourceLineageTag": "adj_ni_perc",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Conditional Format",
+  "lineageTag": "6647408b-6919-4752-8bdb-e40c629e1e81",
+  "calculationGroup": {
+    "precedence": 2,
+    "calculationItems": [
+      {
+        "name": "Conditional_format",
+        "expression": [
+          "IF(",
+          "  SELECTEDMEASURE() < 0,",
+          "  \"#,##0;(#,##0);0\",",
+          "  \"#,##0;(#,##0);0\"",
+          ")",
+          ""
+        ]
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "name": "TabularEditor_Relationships",
+      "value": "[]"
+    }
+  ]
+}

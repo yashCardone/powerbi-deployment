@@ -1,0 +1,10 @@
+{
+  "name": "visual_date",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "visual_date",
+    "expressionSource": "DatabaseQuery",
+    "schemaName": "dbo"
+  }
+}

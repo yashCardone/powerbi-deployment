@@ -1,0 +1,26 @@
+{
+  "name": "Actual_CF",
+  "expression": [
+    "CALCULATE( SUM('cash_flow_balances'[cash_flow_amount]), ",
+    "FILTER('cash_flow_balances','cash_flow_balances'[scenario] = \"Actual\"))"
+  ],
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "130e0bab-2e32-49ee-8c84-9cdb605cd22f",
+  "formatStringDefinition": {
+    "expression": "\"#,##0;(#,##0);0\""
+  },
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    },
+    {
+      "property": "Name"
+    },
+    {
+      "property": "FormatString"
+    },
+    {
+      "property": "FormatStringDefinition"
+    }
+  ]
+}

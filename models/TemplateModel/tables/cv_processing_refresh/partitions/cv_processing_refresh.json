@@ -1,0 +1,10 @@
+{
+  "name": "cv_processing_refresh",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "cv_processing_refresh",
+    "expressionSource": "DatabaseQuery",
+    "schemaName": "dbo"
+  }
+}

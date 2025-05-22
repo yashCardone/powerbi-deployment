@@ -1,0 +1,40 @@
+{
+  "name": "payroll_expense_%",
+  "expression": [
+    "",
+    "VAR OffsetValue = SELECTEDVALUE('Dashboard_Visuals (2)'[Offset])",
+    "VAR SelectedYear = SELECTEDVALUE('visual_date'[Year])",
+    "VAR SelectedMonth = SELECTEDVALUE('visual_date'[Month])",
+    "-- Compute the target month & year based on the selected offset",
+    "VAR TargetMonth = SelectedMonth - OffsetValue",
+    "VAR AdjustedYear = IF(TargetMonth < 1, SelectedYear - 1, SelectedYear)",
+    "VAR AdjustedMonth = IF(TargetMonth < 1, TargetMonth + 12, TargetMonth)",
+    "-- Create an index between 1 and 6 based on the adjusted month",
+    "VAR PercentIndex =",
+    "    IF(",
+    "        MOD(AdjustedMonth, 6) = 0,",
+    "        6,",
+    "        MOD(AdjustedMonth, 6)",
+    "    )",
+    "RETURN",
+    "    SWITCH(",
+    "        PercentIndex,",
+    "        1, 0.51,",
+    "        2, 0.44,",
+    "        3, 0.48,",
+    "        4, 0.52,",
+    "        5, 0.49,",
+    "        6, 0.47,",
+    "        7, 0.51",
+    "    )",
+    ""
+  ],
+  "formatString": "0%;-0%;0%",
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "44d37d15-03b9-4048-8370-150bbb4ad0e3",
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "selection_date",
+  "dataType": "dateTime",
+  "sourceColumn": "selection_date",
+  "formatString": "General Date",
+  "sourceProviderType": "date",
+  "lineageTag": "0e028d39-f031-4424-bdb2-7825b25c2902",
+  "sourceLineageTag": "selection_date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

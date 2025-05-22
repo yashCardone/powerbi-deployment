@@ -1,0 +1,62 @@
+{
+  "name": "CF_List",
+  "lineageTag": "5b213e83-203e-4210-a86b-9ad9e910a273",
+  "calculationGroup": {
+    "precedence": 3,
+    "calculationItems": [
+      {
+        "name": "Starting Cash Balance",
+        "expression": "CALCULATE(SELECTEDMEASURE(), 'cash_flow_balances'[account_category] = \"Starting Cash Balance\")",
+        "ordinal": 0
+      },
+      {
+        "name": "Net Income",
+        "expression": "CALCULATE(SELECTEDMEASURE(), 'cash_flow_balances'[account_category] = \"Net Income\")",
+        "ordinal": 1
+      },
+      {
+        "name": "Operating Adjustments",
+        "expression": "CALCULATE(SELECTEDMEASURE(), 'cash_flow_balances'[account_category] = \"Operating Adjustments\")",
+        "ordinal": 2
+      },
+      {
+        "name": "Investing Activities",
+        "expression": "CALCULATE(SELECTEDMEASURE(), 'cash_flow_balances'[account_category] = \"Investing Activities\")",
+        "ordinal": 3
+      },
+      {
+        "name": "Financing Activities",
+        "expression": "CALCULATE(SELECTEDMEASURE(), 'cash_flow_balances'[account_category] = \"Financing Activities\")",
+        "ordinal": 4
+      },
+      {
+        "name": "Ending Cash Balance",
+        "expression": "CALCULATE(SELECTEDMEASURE(), 'cash_flow_balances'[account_category] = \"Ending Cash Balance\")",
+        "ordinal": 5
+      },
+      {
+        "name": "Net Change in Cash",
+        "expression": [
+          "",
+          "CALCULATE(",
+          "    SELECTEDMEASURE(),",
+          "    'CF_List'[Calculation group column] = \"Ending Cash Balance\"",
+          ")",
+          "-",
+          "CALCULATE(",
+          "    SELECTEDMEASURE(),",
+          "    'CF_List'[Calculation group column] = \"Starting Cash Balance\"",
+          ")",
+          ""
+        ],
+        "ordinal": 6
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "name": "TabularEditor_Relationships",
+      "value": "[]"
+    }
+  ]
+}

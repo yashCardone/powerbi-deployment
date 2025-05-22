@@ -1,0 +1,10 @@
+{
+  "name": "balance_sheet_eom_balances",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "balance_sheet_eom_balances",
+    "expressionSource": "DatabaseQuery",
+    "schemaName": "dbo"
+  }
+}

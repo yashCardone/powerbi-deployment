@@ -1,0 +1,16 @@
+{
+  "name": "balance_id",
+  "dataType": "int64",
+  "sourceColumn": "balance_id",
+  "formatString": "0",
+  "sourceProviderType": "int",
+  "lineageTag": "6399099e-3a05-4860-87a4-ca7d77c1d0c1",
+  "sourceLineageTag": "balance_id",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

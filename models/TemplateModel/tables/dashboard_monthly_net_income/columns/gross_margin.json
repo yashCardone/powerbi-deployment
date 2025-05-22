@@ -1,0 +1,19 @@
+{
+  "name": "gross_margin",
+  "dataType": "double",
+  "sourceColumn": "gross_margin",
+  "sourceProviderType": "float",
+  "lineageTag": "41d8faf3-d8eb-4178-80c4-c57a1fdab51c",
+  "sourceLineageTag": "gross_margin",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

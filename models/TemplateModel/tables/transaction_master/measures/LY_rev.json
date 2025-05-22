@@ -1,0 +1,20 @@
+{
+  "name": "LY_rev",
+  "expression": "CALCULATE( SUM('transaction_master'[total_amount]),FILTER('transaction_master','transaction_master'[scenario] = \"LY\"))",
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "eab9c4fb-693f-4d31-934b-245f8667d997",
+  "formatStringDefinition": {
+    "expression": "\"#,##0;(#,##0);0\""
+  },
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    },
+    {
+      "property": "FormatString"
+    },
+    {
+      "property": "FormatStringDefinition"
+    }
+  ]
+}

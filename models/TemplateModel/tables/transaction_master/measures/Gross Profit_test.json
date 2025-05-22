@@ -1,0 +1,31 @@
+{
+  "name": "Gross Profit_test",
+  "expression": [
+    "CALCULATE(",
+    "    SELECTEDMEASURE(),",
+    "    'transaction_master'[gl_category_1] = \"Revenue\"",
+    ") ",
+    "- ",
+    "CALCULATE(",
+    "    SELECTEDMEASURE(),",
+    "    'transaction_master'[gl_category_1] = \"COGS\"",
+    ")",
+    ""
+  ],
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "ef969e2f-756b-4a6c-ba69-ab9172318915",
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    },
+    {
+      "property": "Name"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

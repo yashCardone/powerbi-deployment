@@ -1,0 +1,19 @@
+{
+  "name": "cash_flow_amount",
+  "dataType": "double",
+  "sourceColumn": "cash_flow_amount",
+  "sourceProviderType": "float",
+  "lineageTag": "761b2c67-1fe4-45aa-8f94-066780b40c45",
+  "sourceLineageTag": "cash_flow_amount",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

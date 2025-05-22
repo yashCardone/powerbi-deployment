@@ -1,0 +1,63 @@
+{
+  "name": "Var_to_LY_%_test2",
+  "expression": [
+    "",
+    "VAR Item1 = SELECTEDVALUE( 'Financial Metrics'[Calculation group column] )",
+    "",
+    "// Row‐by‐row percentage",
+    "VAR BasePct =",
+    "    DIVIDE( [Var_to_LY], ABS( [LY_rev] ) )",
+    "",
+    "// Overall total % (sum of all Var_to_LY ÷ sum of all LY_rev)",
+    "VAR TotalPct =",
+    "    DIVIDE(",
+    "        CALCULATE(",
+    "            [Var_to_LY],",
+    "            'Financial Metrics'[Calculation group column] ",
+    "        ),",
+    "        CALCULATE(",
+    "            [LY_rev],",
+    "           'Financial Metrics'[Calculation group column] ",
+    "        )",
+    "    )",
+    "",
+    "RETURN",
+    "IF(",
+    "    // If there is exactly one calc‐item in context, do the row logic…",
+    "    HASONEVALUE( 'Financial Metrics'[Calculation group column] ),",
+    "",
+    "    SWITCH(",
+    "        TRUE(),",
+    "",
+    "        // flip sign for cost lines",
+    "        Item1 IN { \"COGS\", \"SG&A\", \"Other\" },  - BasePct,",
+    "",
+    "        // use Var_to_LY÷LY for these aggregates",
+    "        Item1 IN { \"Gross Profit\", \"EBITDA\", \"Net Income\" },  BasePct,",
+    "",
+    "        // revenue & everything else",
+    "        BasePct",
+    "    ),",
+    "",
+    "    // …otherwise (i.e. the grand total), show the overall %:",
+    "    TotalPct",
+    ")",
+    ""
+  ],
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "82906d48-3fc3-40ac-9392-752a4bc4b4f7",
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    },
+    {
+      "property": "Name"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

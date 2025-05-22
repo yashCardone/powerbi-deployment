@@ -1,0 +1,7 @@
+{
+  "name": "Financial Metrics",
+  "mode": "import",
+  "source": {
+    "type": "calculationGroup"
+  }
+}

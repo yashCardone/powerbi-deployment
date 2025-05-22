@@ -1,0 +1,24 @@
+{
+  "name": "BS_test",
+  "expression": [
+    "",
+    "",
+    "CALCULATE(SUM(balance_sheet_eom_balances[balance]))"
+  ],
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "27cc2d18-35f9-4c9a-8690-dfc435c51d4f",
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    },
+    {
+      "property": "Name"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

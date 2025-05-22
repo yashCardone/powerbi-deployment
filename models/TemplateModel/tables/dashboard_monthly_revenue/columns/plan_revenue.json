@@ -1,0 +1,19 @@
+{
+  "name": "plan_revenue",
+  "dataType": "double",
+  "sourceColumn": "plan_revenue",
+  "sourceProviderType": "float",
+  "lineageTag": "786966bf-46da-45cd-be5f-57d6242e57da",
+  "sourceLineageTag": "plan_revenue",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

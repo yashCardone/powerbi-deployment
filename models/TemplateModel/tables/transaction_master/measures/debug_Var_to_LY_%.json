@@ -1,0 +1,56 @@
+{
+  "name": "debug_Var_to_LY_%",
+  "expression": [
+    "",
+    "VAR Item1 = SELECTEDVALUE('Financial Metrics'[Calculation group column])",
+    "",
+    "-- Detect when we're at the Gross Profit parent row only",
+    "VAR IsGrossProfit = Item1 = \"Gross Profit\" && NOT ISINSCOPE('transaction_master'[gl_category_1])",
+    "",
+    "-- Revenue / COGS filtered safely",
+    "VAR Actual_Revenue = CALCULATE([Actual_rev], FILTER('transaction_master', 'transaction_master'[gl_category_1] = \"Revenue\"))",
+    "VAR Actual_COGS    = CALCULATE([Actual_rev], FILTER('transaction_master', 'transaction_master'[gl_category_1] = \"COGS\"))",
+    "",
+    "VAR LY_Revenue     = CALCULATE([LY_rev], FILTER('transaction_master', 'transaction_master'[gl_category_1] = \"Revenue\"))",
+    "VAR LY_COGS        = CALCULATE([LY_rev], FILTER('transaction_master', 'transaction_master'[gl_category_1] = \"COGS\"))",
+    "",
+    "VAR GP_Actual = Actual_Revenue - Actual_COGS",
+    "VAR GP_LY     = LY_Revenue - LY_COGS",
+    "VAR GP_Delta  = GP_Actual - GP_LY",
+    "VAR GPresult = DIVIDE(GP_Delta, GP_LY)",
+    "",
+    "-- Regular row logic",
+    "VAR Actual = [Actual_rev]",
+    "VAR LY = [LY_rev]",
+    "VAR Delta = DIVIDE(Actual - LY, LY)",
+    "",
+    "RETURN",
+    "SWITCH(",
+    "    TRUE(),",
+    "    -- Flip for cost lines",
+    "    Item1 IN {\"COGS\", \"SG&A\", \"Other\"}, -Delta,",
+    "",
+    "    -- Override Gross Profit logic only at top level",
+    "    IsGrossProfit, GPresult,",
+    "",
+    "    -- Default behavior",
+    "    Delta",
+    ")"
+  ],
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "d799c5dc-3af1-4738-b790-2bc17b04b6c5",
+  "changedProperties": [
+    {
+      "property": "Name"
+    },
+    {
+      "property": "DisplayFolder"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

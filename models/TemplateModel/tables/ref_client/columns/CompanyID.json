@@ -1,0 +1,15 @@
+{
+  "name": "CompanyID",
+  "dataType": "string",
+  "sourceColumn": "CompanyID",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "27bc32a5-d686-4e84-b5bb-cab2d4263512",
+  "sourceLineageTag": "CompanyID",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

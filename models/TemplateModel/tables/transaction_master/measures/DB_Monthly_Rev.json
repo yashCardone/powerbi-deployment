@@ -1,0 +1,30 @@
+{
+  "name": "DB_Monthly_Rev",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    SUM( 'dashboard_monthly_revenue'[actual_revenue] ),",
+    "    FILTER(",
+    "        'dashboard_monthly_revenue',",
+    "        'dashboard_monthly_revenue'[selection_date] <> BLANK()",
+    "    )",
+    ")",
+    ""
+  ],
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "596d8ae3-0ea6-4dd6-985b-254f53c4c214",
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    },
+    {
+      "property": "Name"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

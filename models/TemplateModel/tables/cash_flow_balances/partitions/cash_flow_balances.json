@@ -1,0 +1,10 @@
+{
+  "name": "cash_flow_balances",
+  "mode": "directLake",
+  "source": {
+    "type": "entity",
+    "entityName": "cash_flow_balances",
+    "expressionSource": "DatabaseQuery",
+    "schemaName": "dbo"
+  }
+}

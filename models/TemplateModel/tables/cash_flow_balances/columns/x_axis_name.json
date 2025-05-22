@@ -1,0 +1,36 @@
+{
+  "name": "x_axis_name",
+  "dataType": "dateTime",
+  "sourceColumn": "x_axis_name",
+  "formatString": "MMM YYYY",
+  "sortByColumn": "balance_date",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "59783a5e-d0a1-4b05-8ea0-47fbe22495e3",
+  "sourceLineageTag": "x_axis_name",
+  "summarizeBy": "none",
+  "changedProperties": [
+    {
+      "property": "SortByColumn"
+    },
+    {
+      "property": "DataType"
+    },
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isCustom\":true}"
+    }
+  ]
+}

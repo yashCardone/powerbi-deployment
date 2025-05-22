@@ -1,0 +1,21 @@
+{
+  "name": "x_axis_name",
+  "dataType": "string",
+  "sourceColumn": "x_axis_name",
+  "sortByColumn": "chart_date",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "9374d90a-14bb-4161-921f-3f8f98c05507",
+  "sourceLineageTag": "x_axis_name",
+  "summarizeBy": "none",
+  "changedProperties": [
+    {
+      "property": "SortByColumn"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

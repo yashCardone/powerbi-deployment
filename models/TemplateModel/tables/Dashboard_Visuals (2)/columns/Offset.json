@@ -1,0 +1,17 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Offset",
+  "dataType": "int64",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Offset]",
+  "formatString": "0",
+  "lineageTag": "f64db8a8-ea56-4fd2-a8ad-d1e1041ebf29",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

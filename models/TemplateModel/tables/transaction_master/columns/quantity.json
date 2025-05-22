@@ -1,0 +1,19 @@
+{
+  "name": "quantity",
+  "dataType": "double",
+  "sourceColumn": "quantity",
+  "sourceProviderType": "real",
+  "lineageTag": "c9af77da-3061-4348-a4c4-07408775b73f",
+  "sourceLineageTag": "quantity",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

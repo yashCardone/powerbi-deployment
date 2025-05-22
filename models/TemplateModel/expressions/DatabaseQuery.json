@@ -1,0 +1,17 @@
+{
+  "name": "DatabaseQuery",
+  "kind": "m",
+  "expression": [
+    "let",
+    "    database = Sql.Database(\"JNMKDCYH6GDEXF3BPKYOOPQ5ZQ-2ZKWDVSG4Y5EFJZO4VLL56TYSA.datawarehouse.fabric.microsoft.com\", \"2df782a8-5bb6-48d7-aa92-c0726f71a50d\")",
+    "in",
+    "    database"
+  ],
+  "lineageTag": "a85eb635-2ff0-44f0-9fff-65b8dcb1f4aa",
+  "annotations": [
+    {
+      "name": "PBI_IncludeFutureArtifacts",
+      "value": "False"
+    }
+  ]
+}

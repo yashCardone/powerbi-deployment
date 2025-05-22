@@ -1,0 +1,40 @@
+{
+  "name": "rpe_by_offset",
+  "expression": [
+    "",
+    "VAR OffsetValue = SELECTEDVALUE('Dashboard_Visuals (2)'[Offset])",
+    "VAR SelectedYear = SELECTEDVALUE('visual_date'[Year])",
+    "VAR SelectedMonth = SELECTEDVALUE('visual_date'[Month])",
+    "-- Compute the target month & year based on the selected offset",
+    "VAR TargetMonth = SelectedMonth - OffsetValue",
+    "VAR AdjustedYear = IF(TargetMonth < 1, SelectedYear - 1, SelectedYear)",
+    "VAR AdjustedMonth = IF(TargetMonth < 1, TargetMonth + 12, TargetMonth)",
+    "-- Create an index between 1 and 6 based on the adjusted month",
+    "VAR RPEIndex = ",
+    "    IF(",
+    "        MOD(AdjustedMonth, 6) = 0,",
+    "        6,",
+    "        MOD(AdjustedMonth, 6)",
+    "    )",
+    "RETURN",
+    "    SWITCH(",
+    "        RPEIndex,",
+    "        1, 425000,",
+    "        2, 200000,",
+    "        3, 300000,",
+    "        4, 350000,",
+    "        5, 400000,",
+    "        6, 476000,",
+    "        BLANK()",
+    "    )",
+    ""
+  ],
+  "formatString": "#,0",
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "5d1ae363-612b-49a4-ae3a-889b82f02ba5",
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    }
+  ]
+}

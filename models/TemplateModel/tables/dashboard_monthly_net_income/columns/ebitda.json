@@ -1,0 +1,19 @@
+{
+  "name": "ebitda",
+  "dataType": "double",
+  "sourceColumn": "ebitda",
+  "sourceProviderType": "float",
+  "lineageTag": "d15bc6fb-1fce-4b90-978d-81f523d82d13",
+  "sourceLineageTag": "ebitda",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

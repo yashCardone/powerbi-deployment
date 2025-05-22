@@ -1,0 +1,15 @@
+{
+  "name": "account_name",
+  "dataType": "string",
+  "sourceColumn": "account_name",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "3ae7248d-8f23-4e9b-8bd7-b00f3c4bcc13",
+  "sourceLineageTag": "account_name",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

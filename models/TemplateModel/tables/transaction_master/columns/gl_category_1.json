@@ -1,0 +1,15 @@
+{
+  "name": "gl_category_1",
+  "dataType": "string",
+  "sourceColumn": "gl_category_1",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "b16a9e9c-815e-4a77-bdb5-d0bc59d105ef",
+  "sourceLineageTag": "gl_category_1",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

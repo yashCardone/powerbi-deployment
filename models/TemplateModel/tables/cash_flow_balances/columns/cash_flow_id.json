@@ -1,0 +1,16 @@
+{
+  "name": "cash_flow_id",
+  "dataType": "int64",
+  "sourceColumn": "cash_flow_id",
+  "formatString": "0",
+  "sourceProviderType": "int",
+  "lineageTag": "03141cac-ff35-4a58-862c-68bc63f2fd8d",
+  "sourceLineageTag": "cash_flow_id",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

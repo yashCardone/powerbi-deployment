@@ -1,0 +1,15 @@
+{
+  "name": "location",
+  "dataType": "string",
+  "sourceColumn": "location",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "bb130a6c-aaa5-4280-bc8c-2d5a76322449",
+  "sourceLineageTag": "location",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "DB_Monthly_Net_Income",
+  "expression": "CALCULATE(SUM('dashboard_monthly_net_income'[net_income]), FILTER('dashboard_monthly_net_income', dashboard_monthly_net_income[selection_date] <> BLANK()))",
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "d584d8b6-b551-47f1-8c06-3597e34e7ca5",
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    },
+    {
+      "property": "Name"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

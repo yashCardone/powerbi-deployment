@@ -1,0 +1,19 @@
+{
+  "name": "other",
+  "dataType": "double",
+  "sourceColumn": "other",
+  "sourceProviderType": "float",
+  "lineageTag": "03e7e2ff-5786-4bab-8726-8038e571f219",
+  "sourceLineageTag": "other",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

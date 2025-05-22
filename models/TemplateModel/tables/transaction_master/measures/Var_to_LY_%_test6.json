@@ -1,0 +1,58 @@
+{
+  "name": "Var_to_LY_%_test6",
+  "expression": [
+    "",
+    "",
+    "IF(",
+    "  ISINSCOPE( 'Financial Metrics'[Calculation group column] ),",
+    "  ",
+    "  // ——— You *are* on a detail row ———",
+    "  SWITCH(",
+    "    TRUE(),",
+    "",
+    "    // 1) Gross Profit: override context",
+    "    SELECTEDVALUE( 'Financial Metrics'[Calculation group column] ) = \"Gross Profit\",",
+    "      DIVIDE(",
+    "        CALCULATE(",
+    "          [Var_to_LY],",
+    "          REMOVEFILTERS( 'Financial Metrics'[Calculation group column] )",
+    "        ),",
+    "        CALCULATE(",
+    "          [LY_rev],",
+    "          REMOVEFILTERS( 'Financial Metrics'[Calculation group column] )",
+    "        )",
+    "      ),",
+    "",
+    "    // 2) COGS: flip sign on the row’s own change",
+    "    SELECTEDVALUE( 'Financial Metrics'[Calculation group column] ) = \"COGS\",",
+    "      - DIVIDE( [Var_to_LY], ABS( [LY_rev] ) ),",
+    "",
+    "    // 3) Everything else: its own % change",
+    "    DIVIDE( [Var_to_LY], ABS( [LY_rev] ) )",
+    "  ),",
+    "",
+    "  // ——— You’re at the Grand Total ———",
+    "  DIVIDE(",
+    "    CALCULATE( [Var_to_LY], REMOVEFILTERS( 'Financial Metrics'[Calculation group column] ) ),",
+    "    CALCULATE( [LY_rev], REMOVEFILTERS( 'Financial Metrics'[Calculation group column] ) )",
+    "  )",
+    ")",
+    ""
+  ],
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "a521844d-393e-4f4c-8b55-bbcf023cc416",
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    },
+    {
+      "property": "Name"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

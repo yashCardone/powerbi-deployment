@@ -1,0 +1,15 @@
+{
+  "name": "selection_year",
+  "dataType": "string",
+  "sourceColumn": "selection_year",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "0617946c-ef44-4ab8-858d-528886a57319",
+  "sourceLineageTag": "selection_year",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "CF_List",
+  "mode": "import",
+  "source": {
+    "type": "calculationGroup"
+  }
+}

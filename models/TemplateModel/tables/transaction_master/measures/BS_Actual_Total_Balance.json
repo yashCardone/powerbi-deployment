@@ -1,0 +1,30 @@
+{
+  "name": "BS_Actual_Total_Balance",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    SUM( 'balance_sheet_eom_balances'[balance] ),",
+    "    'balance_sheet_eom_balances'[scenario] = \"Actual\",",
+    "    VALUES('balance_sheet_eom_balances'[balance_date])",
+    ")"
+  ],
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "94c25489-0ec3-4395-8c9a-9851518fea09",
+  "formatStringDefinition": {
+    "expression": "\"#,##0;(#,##0);0\""
+  },
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    },
+    {
+      "property": "Name"
+    },
+    {
+      "property": "FormatString"
+    },
+    {
+      "property": "FormatStringDefinition"
+    }
+  ]
+}

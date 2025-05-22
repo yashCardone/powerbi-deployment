@@ -1,0 +1,23 @@
+{
+  "name": "Actual_rev",
+  "expression": [
+    "CALCULATE( SUM('transaction_master'[total_amount]), ",
+    "FILTER('transaction_master','transaction_master'[scenario] = \"Actual\"))"
+  ],
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "b3cef026-7d78-41de-8f7a-f7c678b3eb05",
+  "formatStringDefinition": {
+    "expression": "\"#,##0;(#,##0);0\""
+  },
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    },
+    {
+      "property": "FormatString"
+    },
+    {
+      "property": "FormatStringDefinition"
+    }
+  ]
+}

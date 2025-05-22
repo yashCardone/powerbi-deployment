@@ -1,0 +1,15 @@
+{
+  "name": "vendor_id",
+  "dataType": "string",
+  "sourceColumn": "vendor_id",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "5b55c919-bc9f-46bd-9c2d-f1c163495215",
+  "sourceLineageTag": "vendor_id",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

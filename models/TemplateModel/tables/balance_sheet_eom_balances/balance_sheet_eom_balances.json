@@ -1,0 +1,30 @@
+{
+  "name": "balance_sheet_eom_balances",
+  "lineageTag": "5a1728d0-4368-42c2-8179-6a0a13471691",
+  "sourceLineageTag": "[dbo].[balance_sheet_eom_balances]",
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": [
+        "[",
+        "  {",
+        "    \"fromTable\": \"balance_sheet_eom_balances\",",
+        "    \"fromColumn\": \"balance_date\",",
+        "    \"toTable\": \"visual_date\",",
+        "    \"toColumn\": \"visual_date\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"balance_sheet_eom_balances\",",
+        "    \"fromColumn\": \"ClientID\",",
+        "    \"toTable\": \"ref_client\",",
+        "    \"toColumn\": \"ClientID\"",
+        "  }",
+        "]"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "balance_date",
+  "dataType": "dateTime",
+  "sourceColumn": "balance_date",
+  "formatString": "Long Date",
+  "sourceProviderType": "date",
+  "lineageTag": "ad08dcb7-a380-444c-b756-205dcdecb11d",
+  "sourceLineageTag": "balance_date",
+  "summarizeBy": "none",
+  "changedProperties": [
+    {
+      "property": "DataType"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "breakeven_revenue",
+  "expression": [
+    "",
+    "VAR OffsetValue = SELECTEDVALUE('Dashboard_Visuals (2)'[Offset])",
+    "VAR SelectedYear = SELECTEDVALUE('visual_date'[Year])",
+    "VAR SelectedMonth = SELECTEDVALUE('visual_date'[Month])",
+    "-- Compute the target month & year based on the offset",
+    "VAR TargetMonth = SelectedMonth - OffsetValue",
+    "VAR AdjustedYear = IF(TargetMonth < 1, SelectedYear - 1, SelectedYear)",
+    "VAR AdjustedMonth = IF(TargetMonth < 1, TargetMonth + 12, TargetMonth)",
+    "-- Create an index between 1 and 6 based on the adjusted month",
+    "VAR RevenueIndex =",
+    "    IF(",
+    "        MOD(AdjustedMonth, 6) = 0,",
+    "        6,",
+    "        MOD(AdjustedMonth, 6)",
+    "    )",
+    "RETURN",
+    "    SWITCH(",
+    "        RevenueIndex,",
+    "        1, 480000,",
+    "        2, 485000,",
+    "        3, 520000,",
+    "        4, 495000,",
+    "        5, 505000,",
+    "        6, 510000,",
+    "        BLANK()",
+    "    )",
+    ""
+  ],
+  "formatString": "#,0",
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "a7e4b8ef-0a8a-4af4-9896-d8e49b53a7dd",
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    }
+  ]
+}

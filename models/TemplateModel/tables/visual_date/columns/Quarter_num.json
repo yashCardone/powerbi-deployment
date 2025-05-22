@@ -1,0 +1,15 @@
+{
+  "name": "Quarter_num",
+  "dataType": "string",
+  "sourceColumn": "Quarter_num",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "d41728ea-11b0-4b6f-a05a-431e740be28e",
+  "sourceLineageTag": "Quarter_num",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

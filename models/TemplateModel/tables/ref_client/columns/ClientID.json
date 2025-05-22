@@ -1,0 +1,15 @@
+{
+  "name": "ClientID",
+  "dataType": "string",
+  "sourceColumn": "ClientID",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "54574992-5361-4f09-ae29-514a59f0339e",
+  "sourceLineageTag": "ClientID",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

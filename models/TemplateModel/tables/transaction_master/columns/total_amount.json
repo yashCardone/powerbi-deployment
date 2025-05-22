@@ -1,0 +1,19 @@
+{
+  "name": "total_amount",
+  "dataType": "double",
+  "sourceColumn": "total_amount",
+  "sourceProviderType": "float",
+  "lineageTag": "aa8bf3c3-80db-4acc-ad4d-929245989901",
+  "sourceLineageTag": "total_amount",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "product_name",
+  "dataType": "string",
+  "sourceColumn": "product_name",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "d12596d1-90ef-4fcf-96be-43d8ca599659",
+  "sourceLineageTag": "product_name",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

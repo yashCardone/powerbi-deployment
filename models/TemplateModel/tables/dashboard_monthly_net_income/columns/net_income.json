@@ -1,0 +1,19 @@
+{
+  "name": "net_income",
+  "dataType": "double",
+  "sourceColumn": "net_income",
+  "sourceProviderType": "float",
+  "lineageTag": "e239088f-9b00-46b6-9d75-766cc4936f54",
+  "sourceLineageTag": "net_income",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

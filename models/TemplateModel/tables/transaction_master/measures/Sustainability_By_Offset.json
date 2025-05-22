@@ -1,0 +1,28 @@
+{
+  "name": "Sustainability_By_Offset",
+  "expression": [
+    "",
+    "VAR OffsetValue = SELECTEDVALUE('Dashboard_Visuals (2)'[Offset])",
+    "VAR SelectedYear = SELECTEDVALUE('visual_date'[Year])",
+    "VAR SelectedMonth = SELECTEDVALUE('visual_date'[Month])",
+    "-- Compute the target month & year based on the selected offset",
+    "VAR TargetMonth = SelectedMonth - OffsetValue",
+    "VAR AdjustedYear = IF(TargetMonth < 1, SelectedYear - 1, SelectedYear)",
+    "VAR AdjustedMonth = IF(TargetMonth < 1, TargetMonth + 12, TargetMonth)",
+    "-- Create a value between 2 and 6 using the adjusted month:",
+    "-- We subtract 1 from the month, take modulo 5, then add 2 so that:",
+    "-- AdjustedMonth=1 returns 2, 2 returns 3, …, 5 returns 6, 6 returns 2, etc.",
+    "VAR CycleValue = MOD(AdjustedMonth - 1, 5) + 2",
+    "RETURN",
+    "    CycleValue",
+    ""
+  ],
+  "formatString": "#,0.00",
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "7a122b62-876a-4e71-b1fc-5b305c2f433b",
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    }
+  ]
+}

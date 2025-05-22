@@ -1,0 +1,30 @@
+{
+  "name": "dashboard_monthly_revenue",
+  "lineageTag": "80d286c0-2794-40ad-b33a-e39d17a8adf5",
+  "sourceLineageTag": "[dbo].[dashboard_monthly_revenue]",
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": [
+        "[",
+        "  {",
+        "    \"fromTable\": \"dashboard_monthly_revenue\",",
+        "    \"fromColumn\": \"ClientID\",",
+        "    \"toTable\": \"ref_client\",",
+        "    \"toColumn\": \"ClientID\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"dashboard_monthly_revenue\",",
+        "    \"fromColumn\": \"selection_date\",",
+        "    \"toTable\": \"visual_date\",",
+        "    \"toColumn\": \"visual_date\"",
+        "  }",
+        "]"
+      ]
+    }
+  ]
+}

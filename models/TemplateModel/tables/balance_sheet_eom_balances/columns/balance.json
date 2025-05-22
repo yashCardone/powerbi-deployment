@@ -1,0 +1,19 @@
+{
+  "name": "balance",
+  "dataType": "double",
+  "sourceColumn": "balance",
+  "sourceProviderType": "float",
+  "lineageTag": "b61c7b21-9fc6-41c9-b79c-556b1fd1dfe4",
+  "sourceLineageTag": "balance",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

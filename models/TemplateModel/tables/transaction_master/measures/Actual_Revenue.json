@@ -1,0 +1,20 @@
+{
+  "name": "Actual_Revenue",
+  "expression": "CALCULATE([Actual_rev], FILTER('transaction_master','transaction_master'[gl_category_1] = \"Revenue\"))",
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "ae113d78-afa4-4389-a310-1fa832721b70",
+  "changedProperties": [
+    {
+      "property": "Name"
+    },
+    {
+      "property": "DisplayFolder"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

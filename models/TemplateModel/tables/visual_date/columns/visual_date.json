@@ -1,0 +1,16 @@
+{
+  "name": "visual_date",
+  "dataType": "dateTime",
+  "sourceColumn": "visual_date",
+  "formatString": "General Date",
+  "sourceProviderType": "date",
+  "lineageTag": "1c6fff16-3fa3-4050-9dc0-a7f8411a6e07",
+  "sourceLineageTag": "visual_date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Transaction_Total",
+  "expression": "CALCULATE(SUM('transaction_master'[total_amount]), FILTER('transaction_master','transaction_master'[transaction_id]<> BLANK()))",
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "7620273e-44d8-411e-9dda-db3ff07987ca",
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

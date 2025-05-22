@@ -1,0 +1,20 @@
+{
+  "name": "LY_COGS",
+  "expression": "CALCULATE([LY_rev], FILTER('transaction_master','transaction_master'[gl_category_1] = \"COGS\"))",
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "866d5495-a7aa-4932-8ec2-54617c86d5ef",
+  "changedProperties": [
+    {
+      "property": "Name"
+    },
+    {
+      "property": "DisplayFolder"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "owner_discretionary",
+  "dataType": "double",
+  "sourceColumn": "owner_discretionary",
+  "sourceProviderType": "float",
+  "lineageTag": "4335313b-a97e-40c1-b3ac-90b30c4a9fc5",
+  "sourceLineageTag": "owner_discretionary",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

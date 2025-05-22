@@ -1,0 +1,30 @@
+{
+  "name": "dashboard_monthly_net_income",
+  "lineageTag": "1186fa5c-e04b-4f34-a83d-3bce45c56c26",
+  "sourceLineageTag": "[dbo].[dashboard_monthly_net_income]",
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "TabularEditor_Relationships",
+      "value": [
+        "[",
+        "  {",
+        "    \"fromTable\": \"dashboard_monthly_net_income\",",
+        "    \"fromColumn\": \"ClientID\",",
+        "    \"toTable\": \"ref_client\",",
+        "    \"toColumn\": \"ClientID\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"dashboard_monthly_net_income\",",
+        "    \"fromColumn\": \"selection_date\",",
+        "    \"toTable\": \"visual_date\",",
+        "    \"toColumn\": \"visual_date\"",
+        "  }",
+        "]"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "account_subcategory",
+  "dataType": "string",
+  "sourceColumn": "account_subcategory",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "bbe0d619-b7ba-4c3a-abf2-0d7f8c478e9b",
+  "sourceLineageTag": "account_subcategory",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

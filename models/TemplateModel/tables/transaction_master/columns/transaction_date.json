@@ -1,0 +1,28 @@
+{
+  "name": "transaction_date",
+  "dataType": "dateTime",
+  "sourceColumn": "transaction_date",
+  "formatString": "Short Date",
+  "sourceProviderType": "date",
+  "lineageTag": "e32dc497-df45-4908-99c8-5c67daac1f4f",
+  "sourceLineageTag": "transaction_date",
+  "summarizeBy": "none",
+  "changedProperties": [
+    {
+      "property": "DataType"
+    },
+    {
+      "property": "FormatString"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    }
+  ]
+}

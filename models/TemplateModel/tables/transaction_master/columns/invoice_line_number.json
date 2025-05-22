@@ -1,0 +1,15 @@
+{
+  "name": "invoice_line_number",
+  "dataType": "string",
+  "sourceColumn": "invoice_line_number",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "344f1e9e-344c-404f-9709-015dd73cfffc",
+  "sourceLineageTag": "invoice_line_number",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

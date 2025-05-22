@@ -1,0 +1,15 @@
+{
+  "name": "customer_id",
+  "dataType": "string",
+  "sourceColumn": "customer_id",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "db1d7dca-af52-4baa-a9ec-eb60fe276512",
+  "sourceLineageTag": "customer_id",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

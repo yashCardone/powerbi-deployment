@@ -1,0 +1,15 @@
+{
+  "name": "scenario",
+  "dataType": "string",
+  "sourceColumn": "scenario",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "a43db3ba-af80-44b3-8ba7-f56f6935cc43",
+  "sourceLineageTag": "scenario",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

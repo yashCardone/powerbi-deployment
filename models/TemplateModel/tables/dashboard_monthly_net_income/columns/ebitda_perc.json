@@ -1,0 +1,19 @@
+{
+  "name": "ebitda_perc",
+  "dataType": "double",
+  "sourceColumn": "ebitda_perc",
+  "sourceProviderType": "float",
+  "lineageTag": "a86cad68-64f8-4ddd-915c-7575c15c8dbe",
+  "sourceLineageTag": "ebitda_perc",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

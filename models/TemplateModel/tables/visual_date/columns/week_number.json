@@ -1,0 +1,16 @@
+{
+  "name": "week_number",
+  "dataType": "int64",
+  "sourceColumn": "week_number",
+  "formatString": "0",
+  "sourceProviderType": "int",
+  "lineageTag": "0c3be250-5d6f-40b6-b561-eae720c693e8",
+  "sourceLineageTag": "week_number",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

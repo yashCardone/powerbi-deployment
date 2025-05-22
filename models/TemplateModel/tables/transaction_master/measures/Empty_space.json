@@ -1,0 +1,20 @@
+{
+  "name": "Empty_space",
+  "expression": "BLANK()",
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "745a096b-7384-4fdb-9ffc-9be18424e3da",
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    },
+    {
+      "property": "Name"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

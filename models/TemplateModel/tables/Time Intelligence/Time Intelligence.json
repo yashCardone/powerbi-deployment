@@ -1,0 +1,37 @@
+{
+  "name": "Time Intelligence",
+  "lineageTag": "51d65c13-0319-4897-bab9-d102ca0ad058",
+  "calculationGroup": {
+    "precedence": 1,
+    "calculationItems": [
+      {
+        "name": "MTD",
+        "expression": "CALCULATE ( SELECTEDMEASURE (), DATESMTD ( 'visual_date'[visual_date]) )"
+      },
+      {
+        "name": "QTD",
+        "expression": "CALCULATE( SELECTEDMEASURE (), DATESQTD( ( 'visual_date'[visual_date]) ))"
+      },
+      {
+        "name": "YTD",
+        "expression": [
+          "",
+          "CALCULATE (",
+          "    SELECTEDMEASURE ( ),",
+          "    DATESYTD ( 'visual_date'[visual_date] )        -- returns all dates in the",
+          "                                            -- current fiscal / calendar year",
+          "                                            -- up to (and including) the",
+          "                                            -- last date visible in the filter",
+          ")",
+          ""
+        ]
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "name": "TabularEditor_Relationships",
+      "value": "[]"
+    }
+  ]
+}

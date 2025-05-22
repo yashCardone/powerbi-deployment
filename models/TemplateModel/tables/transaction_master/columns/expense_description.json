@@ -1,0 +1,15 @@
+{
+  "name": "expense_description",
+  "dataType": "string",
+  "sourceColumn": "expense_description",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "8d06f985-6b3c-470b-b139-8ec892328b92",
+  "sourceLineageTag": "expense_description",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

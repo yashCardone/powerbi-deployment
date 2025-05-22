@@ -1,0 +1,17 @@
+{
+  "name": "Dashboard_Visuals (2)",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": [
+      "",
+      "ADDCOLUMNS(",
+      "    SELECTCOLUMNS(",
+      "    GENERATESERIES(0, 6, 1),",
+      "    \"Offset\",[Value]),",
+      "    \"Dynamic Month Label\", BLANK()",
+      ")",
+      ""
+    ]
+  }
+}

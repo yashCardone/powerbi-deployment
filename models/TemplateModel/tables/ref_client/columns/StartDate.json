@@ -1,0 +1,15 @@
+{
+  "name": "StartDate",
+  "dataType": "string",
+  "sourceColumn": "StartDate",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "ef3c7cda-23b3-4d7f-a1d4-6fb8e2b020d1",
+  "sourceLineageTag": "StartDate",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

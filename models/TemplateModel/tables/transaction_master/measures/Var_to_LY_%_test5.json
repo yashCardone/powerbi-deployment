@@ -1,0 +1,29 @@
+{
+  "name": "Var_to_LY_%_test5",
+  "expression": [
+    "",
+    "",
+    "",
+    "CALCULATE(",
+    "    DIVIDE( [Var_to_LY], [LY_rev] ),",
+    "    REMOVEFILTERS( 'Financial Metrics'[Calculation group column] ),",
+    "    'Financial Metrics'[Calculation group column] = \"Gross Profit\"",
+    ")"
+  ],
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "165d311f-f7ef-4f82-9e32-a6fd36de4dd4",
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    },
+    {
+      "property": "Name"
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

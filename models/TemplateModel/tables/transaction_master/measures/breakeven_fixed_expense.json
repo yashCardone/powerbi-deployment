@@ -1,0 +1,40 @@
+{
+  "name": "breakeven_fixed_expense",
+  "expression": [
+    "",
+    "VAR OffsetValue = SELECTEDVALUE('Dashboard_Visuals (2)'[Offset])",
+    "VAR SelectedYear = SELECTEDVALUE('visual_date'[Year])",
+    "VAR SelectedMonth = SELECTEDVALUE('visual_date'[Month])",
+    "-- Compute the target month & year based on the offset",
+    "VAR TargetMonth = SelectedMonth - OffsetValue",
+    "VAR AdjustedYear = IF(TargetMonth < 1, SelectedYear - 1, SelectedYear)",
+    "VAR AdjustedMonth = IF(TargetMonth < 1, TargetMonth + 12, TargetMonth)",
+    "-- Create an index between 1 and 6 based on the adjusted month",
+    "VAR ExpenseIndex =",
+    "    IF(",
+    "        MOD(AdjustedMonth, 6) = 0,",
+    "        6,",
+    "        MOD(AdjustedMonth, 6)",
+    "    )",
+    "RETURN",
+    "    SWITCH(",
+    "        ExpenseIndex,",
+    "        1, 195000,",
+    "        2, 250000,",
+    "        3, 220000,",
+    "        4, 180000,",
+    "        5, 210000,",
+    "        6, 190000,",
+    "        BLANK()",
+    "    )",
+    ""
+  ],
+  "formatString": "#,0",
+  "displayFolder": "_Measures_Active",
+  "lineageTag": "c8248189-046b-4686-9775-a709a08a75b1",
+  "changedProperties": [
+    {
+      "property": "DisplayFolder"
+    }
+  ]
+}

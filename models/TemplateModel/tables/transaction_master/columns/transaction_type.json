@@ -1,0 +1,15 @@
+{
+  "name": "transaction_type",
+  "dataType": "string",
+  "sourceColumn": "transaction_type",
+  "sourceProviderType": "varchar(8000)",
+  "lineageTag": "f8d09b5b-cb3f-4cc2-b474-b332aaea3814",
+  "sourceLineageTag": "transaction_type",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

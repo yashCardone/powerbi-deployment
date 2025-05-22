@@ -1,0 +1,14 @@
+{
+  "name": "Ordinal",
+  "dataType": "int64",
+  "sourceColumn": "Ordinal",
+  "formatString": "0",
+  "lineageTag": "acb42f0f-337f-4ca3-9eba-1d2e30d98832",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

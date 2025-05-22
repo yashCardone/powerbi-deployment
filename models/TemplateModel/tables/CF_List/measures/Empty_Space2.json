@@ -1,0 +1,11 @@
+{
+  "name": "Empty_Space2",
+  "expression": "BLANK()",
+  "lineageTag": "83c55959-f0c4-4b75-a9a5-08f031f26206",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

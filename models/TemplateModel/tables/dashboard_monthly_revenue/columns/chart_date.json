@@ -1,0 +1,16 @@
+{
+  "name": "chart_date",
+  "dataType": "dateTime",
+  "sourceColumn": "chart_date",
+  "formatString": "General Date",
+  "sourceProviderType": "date",
+  "lineageTag": "4c7734ea-dc2b-46ce-8c9c-6c1d7697ea71",
+  "sourceLineageTag": "chart_date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}
